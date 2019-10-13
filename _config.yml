@@ -1,11 +1,12 @@
 
-title: Tyler Gearing # your name (or website title) here
-logo: "/images/headshot.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+title: Tyler Gearing
+logo: "/images/headshot.png?raw=true"
+description: >
+  Hello, everyone! I am a passionate, hard-working, and lighthearted person with a positive attitude and an innate curiosity about all things in the world. I am a recent graduate with a B.S. in Computer Science from Sonoma State University. Most of my study was spent coding with C and C++, but I am learning to love Python. I am also well versed in front-end languages and technologies like Javascript, React + Redux, and Node.js. In my free time, I am learning how to contribute to the Linux Kernel, it is a dream of mine to be sent an angry email from Linus himself. 
   <br><br>
-  Second description 
+  Aside from coding, I have many interests. I love making music, whether it is with my guitar, my piano, or espcially my computer. I also love to make things with my hands, including high quality durable cat toys, paracord art, furniture, and jewelry. When I'm not doing these things I love to discuss politics and philosophy over a well crafted IPA or Sour Ale. I am not afraid to admit I have an unhealthy obsession with collecting enamel pins, coins, and blades of all shapes and sizes. If you are interested in hiring me, or you connected with my interests, I can be found through the links below. Cheers! 
   <br><br>
-  <a href="https://www.linkedin.com/in/tylergearing/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/tylergearing/">Find me on LinkedIn</a>
+  <a href="https://www.github.com/ezquire">Check out my GitHub</a>
   
 theme: jekyll-theme-minimal
