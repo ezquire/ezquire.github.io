@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: Sunflower;
-    margin-top: 50px;
+    margin-top: 40px;
     height: 100%;
 }
 
@@ -14,6 +14,10 @@ h1 {
 
 .project {
     margin-top: 10px;
+}
+
+.read-more {
+    color: #007bff;  
 }
 
 @media (min-width: 992px) {
