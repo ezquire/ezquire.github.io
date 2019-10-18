@@ -53,46 +53,72 @@
                         <strong>.projects</strong>
                     </div>
                 </div>
-                <hr>
+                <hr id="scribeshare">
                 <div class="project">
-                    <h2><strong><i class="far fa-sticky-note"></i>&nbsp;&nbsp;ScribeShare</strong></h2>
+                    <h3><i class="icon fas fa-sticky-note"></i><strong>&nbsp;&nbsp;ScribeShare</strong></h3>
                     <h4>A collaborative notesharing application</h4>
                     <div class="description">
                         <p>
-                            For my senior capstone software design project my team wanted to create a collaboration tool for students to help them study better, stay more active in class, and ultimately get better grades. The idea evolved into solving the pain point of notetaking. How people take notes is as unique as a fingerprint <span id="scribeshare-dots" style="display:inline">... </span><span id="scribeshare-more" style="display:none">
+                            For my senior capstone software design project my team wanted to create a collaboration tool for students to help them study better, stay more active in class, and ultimately get better grades. The idea evolved into solving the pain point of notetaking. How people take notes is as unique as their fingerprint <span id="scribeshare-dots" style="display:inline">... </span><span id="scribeshare-more" style="display:none">
                             and each person gathers and processes information in a unique way. <br><br>
                             The goal of ScribeShare is to allow students to leverage each other's notes to study, or to catch up if they miss class. There is one catch, you must participate if you want to see other notes. This solves the problem of students using ScribeShare to get notes without having to take them. ScribeShare is built with Node.js, Express, SQL, HTML, and Bootstrap CSS, with plans to transition to MongoDB with a fully integrated Node.js back-end. A sample of the various screens is below.<br><br>
                             <img src="images/scribeshare.gif" width="100%" alt="ScribeShare Preview"/>
-                            </span><span class="read-more" id="scribeshare-button" onclick="toggleDisplay('scribeshare-dots', 'scribeshare-more', 'scribeshare-button')">Show More</span>
+                            </span><a href="#scribeshare" class="show-more" id="scribeshare-button" onclick="toggleDisplay('scribeshare-dots', 'scribeshare-more', 'scribeshare-button')">Show More</a>
                         </p>
                         <p>
-                            See the code on <a href="https://github.com/ezquire/ScribeShare" target="_blank">GitHub&nbsp;<i class="fab fa-github"></i></a>
+                            See the code on <a href="https://github.com/ezquire/ScribeShare" target="_blank">GitHub&nbsp;<i class="fab fa-github"></i></a> 
                         </p>
                     </div>  
-                    <p>
-                        
-                    </p>  
                 </div>
-                <hr>
+                <hr id="interpreter">
                 <div class="project">
-                    <h2><i class="fab fa-python"></i><strong>&nbsp;&nbsp;Python Interpreter</strong></h2>
+                    <h3><i class="icon fab fa-python"></i><strong>&nbsp;&nbsp;Python Interpreter</strong></h3>
                     <h4>A interpreter for a subset of Python</h4>
                     <div class="description">
                         <p>
                             As part of my senior Programming Languages course the main project that spanned the length of the semester was an interpreter for a subset of Python. Using C++ I wrote an object-oriented recursive descent parser that <span id="interpreter-dots" style="display:inline">... </span><span id="interpreter-more" style="display:none">builds an abstract syntax tree to evaluate python expressions and statements to produce a result.<br><br>
                             The interpreter is able to successfully parse over 40 grammar rules including arithmetic and boolean expressions, arrays of various data-types, and recursive function calls. This project was built in stages using the principles of test-driven development to ensure that the smaller parts of the project would not cause bugs further along in the code. A small sample of the code and project build is below.<br><br>
                             <video width="100%" src="videos/interpreter.mov" autoplay muted loop></video>
-                            </span><span class="read-more" id="interpreter-button" onclick="toggleDisplay('interpreter-dots', 'interpreter-more', 'interpreter-button')">Show More</span>
+                            </span><a href="#interpreter" class="show-more" id="interpreter-button" onclick="toggleDisplay('interpreter-dots', 'interpreter-more', 'interpreter-button')">Show More</a>
                         </p>
                         <p>
                             See the code on <a href="https://github.com/ezquire/Interpreter" target="_blank">GitHub&nbsp;<i class="fab fa-github"></i></a>
                         </p>
-                    </div>  
-                    <p>
-                        
-                    </p>  
+                    </div> 
+                </div>
+                <hr id="proxy">
+                <div class="project">
+                    <h3><i class="icon fas fa-server"></i><strong>&nbsp;&nbsp;Proxy Server</strong></h3>
+                    <h4>A simple proxy server that pipes https requests from server to client</h4>
+                    <div class="description">
+                        <p>
+                            As part of my Networking and Internet course the main project that spanned the length of the semester was a proxy server that could pipe http requests from a remote server i.e. google.com, through the proxy to a client i.e. a browser. The project is written in<span id="proxy-dots" style="display:inline">... </span><span id="proxy-more" style="display:none"> C, and utilizes Kyua and ATF for the testing suite.<br><br>
+                            The proxy can handle up to 2 Gbps​ of web traffic and we utilized t​est-driven development​ principles by writing over 30 unit tests using Kyua and the A​TF testing​ framework. This was my first dive into socket programming and I learned a lot about writing C. A sample of the code and tests is below.<br><br>
+                            <video width="100%" src="videos/proxy.mov" autoplay muted loop></video>
+                            </span><a href="#proxy" class="show-more" id="proxy-button" onclick="toggleDisplay('proxy-dots', 'proxy-more', 'proxy-button')">Show More</a>
+                        </p>
+                        <p>
+                            See the code on <a href="https://github.com/ezquire/Simple-Proxy" target="_blank">GitHub&nbsp;<i class="fab fa-github"></i></a>
+                        </p>
+                    </div> 
+                </div>
+                <hr id="portal">
+                <div class="project">
+                    <h3><i class="icon fas fa-wrench"></i><strong>&nbsp;&nbsp;Mogo Client Tools</strong></h3>
+                    <h4>A client portal designed for a digital ad agency</h4>
+                    <div class="description">
+                        <p>
+                            My first ever project in the front-end space consisted of designing the portal where clients of the digital ad agency Mogo Interactive could upload their ad creative to be used in various digial ad campaigns. I was responsible for <span id="portal-dots" style="display:inline">... </span><span id="portal-more" style="display:none">building the site in Adobe Photoshop for the purpose of exporting it as a fully responsive website.<br><br>
+                            This was the first time I had ever designed a website's UX/UI and I had to heavily consider the responsiveness of the pages while creating my design. I went through the entire UX/UI design process with my client from wireframe to finished product. Looking back it is interesting and fun to note the differences in design asthetic from 2015 to now. I learned a lot, especially how to deal with accomadating client needs and unforseen changes in the scope of the project.<br><br>
+                            <img src="images/portal.gif" width="100%" alt="Mogo Client Tools Preview"/>
+                            </span><a href="#portal" class="show-more" id="portal-button" onclick="toggleDisplay('portal-dots', 'portal-more', 'portal-button')">Show More</a>
+                        </p>
+                    </div> 
                 </div>
                 <hr>
+                <div class="project">
+                    <h3><strong>More Projects Coming Soon!</strong></h3>
+                </div> 
             </div>
         </div>
     </div>
